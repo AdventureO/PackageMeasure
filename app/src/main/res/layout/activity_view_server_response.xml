@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.oleksandr.packagemeasure.ViewServerResponse">
+
+
+    <Button
+        android:id="@+id/changeSystemButton"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:text="cm" />
+
+
+    <TextView
+        android:id="@+id/serverResponse"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="1000"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/getDataButton"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            android:text="Size" />
+
+        <Button
+            android:id="@+id/editDataButton"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            android:text="Edit" />
+
+    </LinearLayout>
+</android.widget.RelativeLayout>

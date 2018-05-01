@@ -1,0 +1,4 @@
+#Wed Mar 21 08:19:00 EET 2018
+base.0=/home/oleksandr/AndroidStudioProjects/PackageMeasure/app/build/intermediates/transforms/dex/release/0
+path.0=classes.dex
+renamed.0=classes.dex
